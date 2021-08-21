@@ -17,11 +17,7 @@
 
     npm install
 
-**#5. Compile Node Modules**
-
-    npm run dev
-
-**#6 Update Your DB Details**
+**#5 Update Your DB Details**
 
     Go To .env
 
@@ -34,11 +30,19 @@
 
 And Update Any Other Required Details If Needed
 
+**#6. Migrate Database**
+
+    php artisan migrate
+
 **#7. Re-Genarate Laravel Passport Auth Keys**
 
     php artisan passport:install --force
 
-**#8. Serve Your Project**
+**#8. Compile Node Modules**
+
+    npm run dev
+
+**#9. Serve Your Project**
 
     php artisan serve
 
