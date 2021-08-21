@@ -1,0 +1,9 @@
+*.zip
+node_modules/
+vendor/
+public/modal/
+public/gallery/
+public/css/app.css
+public/js/app.js
+public/js/app.js.LICENSE.txt
+!public/fonts/vendor/

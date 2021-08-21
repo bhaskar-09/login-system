@@ -1,0 +1,146 @@
+.container {
+    padding: 0 !important;
+}
+a:hover {
+    text-decoration: none !important;
+}
+.v-list-item__content {
+    padding: 5px 0 !important;
+}
+.v-application--is-ltr .v-list-item__icon:first-child {
+    margin-right: 10px;
+}
+.search-box {
+    width: 500px;
+    height: 45px;
+}
+
+.scroller-at-left .thumb-list {
+    display: none !important;
+}
+
+.inline-round-zoomer-base-container {
+    display: block !important;
+    height: auto !important;
+    width: auto !important;
+}
+
+.drift-zoom-container .zoomer-left-open {
+    border-radius: 5%;
+    z-index: 1051;
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    top: 10px;
+    left: calc(100% - 510px);
+}
+
+.image-upload-wrap {
+    border: 4px dashed #343a40;
+    position: relative;
+}
+.file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+}
+.drag-text {
+    text-align: center;
+}
+.drag-text h3 {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #343a40;
+    padding: 50px 0;
+    font-size: 30px;
+}
+.drag-text h3 p {
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.v-application
+    .v-navigation-drawer
+    .v-navigation-drawer__content
+    .v-list
+    .v-list-item:hover {
+    background-color: #788cff !important;
+}
+
+.v-application
+    .v-navigation-drawer
+    .v-navigation-drawer__content
+    .v-list
+    .v-list-item--active {
+    background-color: #304ffe !important;
+}
+.v-btn.v-btn--disabled {
+    background-color: hsl(0deg 0% 40%) !important;
+}
+
+.pop-slider {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    width: 30%;
+}
+
+.lightbox {
+    position: fixed; /* keeps the lightbox window in the current viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000080;
+    z-index: 10;
+    text-align: center;
+}
+
+.lightbox p {
+    text-align: right;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.lightbox .lightbox-content {
+    box-shadow: 0 0 10px #111;
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: fit-content;
+    border-radius: 40px;
+}
+.lightbox img {
+    border-radius: 40px;
+    width: 100%;
+}
+
+.image-upload-drag-zone {
+    position: fixed;
+    width: 130px;
+    height: 130px;
+    bottom: 1%;
+    right: 5%;
+    background-color: rgba(103, 101, 114, 0.66);
+    border: 2px dashed #343a40;
+    padding: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.image-upload-drag-zone .drag-text h3 {
+    padding: 0;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.image-upload-drag-zone .drag-text h3 p {
+    font-size: 15px;
+    line-height: 30px;
+}
